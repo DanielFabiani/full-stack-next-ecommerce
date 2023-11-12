@@ -39,6 +39,9 @@ export const StoreModal = () => {
 
       toast.success('Store created.');
 
+      //uso windows para la redirection para que recargue la pagina y asegurar que todo este cargado 
+      window.location.assign(`/${response.data.id}`);
+
     } catch (error) {
       toast.error('Something went wrong.');
 
