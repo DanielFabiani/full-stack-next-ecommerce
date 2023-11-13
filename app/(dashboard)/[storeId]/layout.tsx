@@ -2,6 +2,7 @@ import prismadb from "@/lib/prismadb";
 import { auth } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 
+import Navbar from "@/components/navbar";
 
 export default async function DashboardLayout ({
   children,
@@ -32,7 +33,7 @@ export default async function DashboardLayout ({
   //si existe el id store retorna lo que haya en el componente y page (children)
   return (
     <>
-      <div>This will be a navbar</div>
+      <Navbar />
       {children}
     </>
   )
