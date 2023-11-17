@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align='center'>
 
-## Getting Started
+<h1>E-commerce Store</h1>
+<p>This repository stores the frontend code of an e-commerce website, which is linked to an administrator dashboard. The website features a navigation bar to switch between different categories of products. Additionally, each product has a modal preview and a product detail page. The shop also offers filtering within each category based on colors and sizes. Lastly, the website has a checkout and payment gateway integrated to ensure a complete purchase process.</p>
 
-First, run the development server:
+<h4> <a href=https://next-ecommerce-store-one.vercel.app/>View Demo</a> <span> · </span> <a href="https://github.com/DanielFabiani/next-ecommerce-store/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/DanielFabiani/next-ecommerce-store/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/DanielFabiani/next-ecommerce-store/issues"> Request Feature </a> </h4>
+
+</div>
+
+# :notebook_with_decorative_cover: Table of Contents
+
+- [About the Project](#star2-about-the-project)
+- [Contact](#handshake-contact)
+
+## :star2: About the Project
+
+### :camera: Screenshots
+
+<div align="center"> <a href="https://next-ecommerce-store-one.vercel.app/"><img src="https://live.staticflickr.com/65535/53338419633_50a4651378_k.jpg" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="https://next-ecommerce-store-one.vercel.app/"><img src="https://live.staticflickr.com/65535/53337314622_1e3c191b18_k.jpg" alt='image' width='800'/></a> </div>
+
+### :space_invader: Tech Stack
+
+<details> <summary>Client</summary> <ul>
+<li><a href="">ReactJs</a></li>
+<li><a href="">NextJs</a></li>
+<li><a href="">Typescript</a></li>
+<li><a href="">Tailwind Css</a></li>
+<li><a href="">Zustand</a></li>
+<li><a href="">react-hot-toast</a></li>
+<li><a href="">Stripe</a></li>
+<li><a href="">Rechart</a></li>
+</ul> </details>
+<details> <summary>Server</summary> <ul>
+<li><a href="">Node Js</a></li>
+</ul> </details>
+<details> <summary>Database</summary> <ul>
+<li><a href="">MySQL</a></li>
+<li><a href="">Prisma</a></li>
+<li><a href="">PlanetScale</a></li>
+</ul> </details>
+
+## :toolbox: Getting Started
+
+### :running: Run Locally
+
+Clone the project
+
+```bash
+https://github.com/DanielFabiani/next-ecommerce-store
+```
+
+Go to the project directory
+
+```bash
+cd next-ecommerce-store
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :handshake: Contact
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Daniel Fabiani - - danielfabiani.dev@gmail.com
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project Link: [https://next-ecommerce-store-one.vercel.app/](https://next-ecommerce-store-one.vercel.app/)
